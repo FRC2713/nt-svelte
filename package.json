@@ -7,9 +7,9 @@
     "url": "git+https://github.com/fuzzc0re/electron-svelte-typescript.git"
   },
   "author": {
-    "name": "fuzzc0re",
-    "email": "fuzzc0re@protonmail.com",
-    "url": "https://github.com/fuzzc0re"
+    "name": "Sidney Trzepacz",
+    "email": "lafakeslimshady@gmail.com",
+    "url": "https://github.com/Sid220"
   },
   "license": "MIT",
   "bugs": {
@@ -60,10 +60,15 @@
     "preversion": "npm-run-all -s lint format"
   },
   "dependencies": {
+    "autoprefixer": "latest",
     "electron-log": "^4.3.5",
     "electron-store": "^8.0.0",
     "electron-updater": "^5.2.1",
-    "ntcore-ts-client": "^0.2.0"
+    "ntcore-ts-client": "^0.2.0",
+    "postcss-load-config": "^4.0.1",
+    "tailwindcss": "^3.2.7",
+    "timechart": "^0.5.2",
+    "webgl-plot": "^0.7.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.2",

@@ -44,7 +44,8 @@ export default {
       preprocess: sveltePreprocess({
           typescript: {
             tsconfigFile: production ? "./tsconfig.svelte.prod.json" : "./tsconfig.svelte.json",
-          }
+          },
+          postcss: true
         }),
       compilerOptions: {
         // enable run-time checks when not in production
@@ -87,11 +88,11 @@ export default {
 
     // Watch the `public` directory and refresh the
     // browser on changes when not in production
-    !production &&
-      livereload({
-        watch: "public",
-        // verbose: true,
-      }),
+    // !production &&
+    //   livereload({
+    //     watch: "public",
+    //     verbose: true,
+    //   }),
 
     // If we're building for production (npm run build
     // instead of npm run dev), minify
