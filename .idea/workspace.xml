@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="848d0486-8060-409a-9f64-f33f2ba6fac6" name="Changes" comment="Griding">
-      <change afterPath="$PROJECT_DIR$/.yarn/cache/@types-node-npm-18.15.0-f646cf0d9f-d81372276d.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/BasicValue.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/Colour.svelte" afterDir="false" />
+    <list default="true" id="848d0486-8060-409a-9f64-f33f2ba6fac6" name="Changes" comment="Bottom bar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/desandro-matches-selector-npm-2.0.2-a090716f80-30979e6b45.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/ev-emitter-npm-1.1.1-2ff3287350-3dd78a7620.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/fizzy-ui-utils-npm-2.0.7-9aeef3d5b1-001e54effa.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/get-size-npm-2.0.3-79d8722c4b-18d5a5fdb3.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/outlayer-npm-2.1.1-1fe872efd0-a8b69d07ba.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/packery-npm-2.1.2-674fd94ad2-6ea2fa5993.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/Chooser.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/Chooser.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/Value.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/Value.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +75,7 @@
       <workItem from="1678251049559" duration="24914000" />
       <workItem from="1678544330736" duration="1098000" />
       <workItem from="1678545505028" duration="766000" />
-      <workItem from="1678546491437" duration="9652000" />
+      <workItem from="1678546491437" duration="10842000" />
     </task>
     <task id="LOCAL-00001" summary="NT-Svelte testing">
       <created>1677808320807</created>
@@ -112,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678546166336</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bottom bar">
+      <created>1678557265775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678557265775</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +126,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="NT-Svelte testing" />
     <MESSAGE value="Griding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Griding" />
+    <MESSAGE value="Bottom bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bottom bar" />
   </component>
 </project>
