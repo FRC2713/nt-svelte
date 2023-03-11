@@ -2,6 +2,8 @@
   import Value from "./Value.svelte";
   import { NetworkTables, NetworkTablesTypeInfos } from "ntcore-ts-client";
   import Chooser from "./Chooser.svelte";
+  import Packery from "packery";
+
 
   const INSTANCE = NetworkTables.getInstanceByURI("127.0.0.1", 5810);
 
@@ -22,6 +24,14 @@
   import Tailwindcss from './Tailwind.svelte';
   import Chart from "./Chart.svelte";
   import Grid from "./grids/Grid.svelte";
+
+  let mode: null | string = null;
+
+  // element argument can be a selector string
+  //   for an individual element
+  // let pckry = new Packery( '.pack', {
+  //   // options
+  // });
 </script>
 
 <main>
@@ -36,9 +46,12 @@
       {/if}
     </p>
   {/if}
-  <Value instance="{INSTANCE}" name="/AdvantageKit/RealOutputs/RANDOM" type="{NetworkTablesTypeInfos.kDouble}" />
-  <Value instance="{INSTANCE}" name="/AdvantageKit/RealOutputs/DOESNT EXIST" type="{NetworkTablesTypeInfos.kString}" />
+  <div data-packery='{ `{"itemSelector": ".grid-item", "gutter": 10}` }'>
+    <Value instance="{INSTANCE}" name="/AdvantageKit/RealOutputs/Game piece mode" type="{NetworkTablesTypeInfos.kString}" bind:value={mode} />
+    <Value instance="{INSTANCE}" name="/AdvantageKit/RealOutputs/RANDOM" type="{NetworkTablesTypeInfos.kDouble}" />
+    <Value instance="{INSTANCE}" name="/AdvantageKit/RealOutputs/DOESNT EXIST" type="{NetworkTablesTypeInfos.kString}" />
+  </div>
   <Chooser instance="{INSTANCE}" name="/SmartDashboard/Auto choices" />
 <!--  <Chart/>-->
-  <Grid />
+<!--  <Grid bind:gamePieceMode={mode} />-->
 </main>

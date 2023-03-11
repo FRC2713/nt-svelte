@@ -7,7 +7,7 @@
 
   export let type: NetworkTablesTypeInfo;
 
-  let value = null;
+  export let value = null;
 
   const TOPIC = instance.createTopic<number>(name, type);
 
@@ -15,7 +15,7 @@
     value = val;
   }, true);
 </script>
-
+<div class="border-2 border-sky-500 grid-item">
 <p>
   {#if value === null}
     <s>{name}</s>
@@ -23,3 +23,4 @@
     {name}: {value}
   {/if}
 </p>
+</div>

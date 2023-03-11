@@ -4,32 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="848d0486-8060-409a-9f64-f33f2ba6fac6" name="Changes" comment="NT-Svelte testing">
-      <change afterPath="$PROJECT_DIR$/.yarn/cache/webgl-plot-npm-0.7.0-a778078b2e-e59a13c9b3.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/Chart.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/Tailwind.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/grids/Grid.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/grids/Node.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/grids/NodeTypes.ts" afterDir="false" />
+    <list default="true" id="848d0486-8060-409a-9f64-f33f2ba6fac6" name="Changes" comment="Griding">
+      <change afterPath="$PROJECT_DIR$/.yarn/cache/@types-jquery-npm-3.5.16-62a6b7d27d-13c995f15d.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.yarn/cache/@types-packery-npm-1.4.32-e1659c2db0-fdb4e25e53.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.yarn/cache/@types-sizzle-npm-2.3.3-9403924950-586a9fb1f6.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.yarn/cache/desandro-matches-selector-npm-2.0.2-a090716f80-30979e6b45.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.yarn/cache/ev-emitter-npm-1.1.1-2ff3287350-3dd78a7620.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.yarn/cache/fizzy-ui-utils-npm-2.0.7-9aeef3d5b1-001e54effa.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.yarn/cache/get-size-npm-2.0.3-79d8722c4b-18d5a5fdb3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.yarn/cache/outlayer-npm-2.1.1-1fe872efd0-a8b69d07ba.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.yarn/cache/packery-npm-2.1.2-674fd94ad2-6ea2fa5993.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/cone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/cube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/grids/GamePieceMode.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/grids/Score.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/cleanBuilds.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cleanBuilds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/postBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/postBuild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/preBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/preBuild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/electron/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/electron/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/electron/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/electron/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/electron/utils/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/electron/utils/logger.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/electron/utils/settings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/electron/utils/settings.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/Chooser.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/Chooser.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/Value.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/Value.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/grids/Grid.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/grids/Grid.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/grids/Node.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/grids/Node.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +73,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;yarn:package.json:prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\sidtr\\Development\\Robot\\nt-svelte\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -93,7 +89,9 @@
       <workItem from="1677791245767" duration="18328000" />
       <workItem from="1678215524431" duration="8413000" />
       <workItem from="1678250217537" duration="686000" />
-      <workItem from="1678251049559" duration="5009000" />
+      <workItem from="1678251049559" duration="24914000" />
+      <workItem from="1678544330736" duration="1098000" />
+      <workItem from="1678545505028" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="NT-Svelte testing">
       <created>1677808320807</created>
@@ -129,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="NT-Svelte testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="NT-Svelte testing" />
+    <MESSAGE value="Griding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Griding" />
   </component>
 </project>

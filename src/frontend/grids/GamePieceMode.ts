@@ -1,0 +1,1 @@
+export type GamePieceMode = "CUBE" | "CONE" | null;
